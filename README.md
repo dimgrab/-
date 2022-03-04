@@ -1,5 +1,2 @@
-Правила игры:
-Загадано слово. Вы можете поочерёдно отгадывать буквы в этом слове. Для этого вводите буквы русского
-алфавита, которые по-вашему есть в загаданном слове, по одной. Если введённая вами буква есть в
-загаданном  слове, то все такие буквы в слове станут видны.Также вы можете отгадать слово сразу, 
-введя его целиком.
+Game rules: there one quized word. You can quess letters of this word by entering them. If you entered right letter all such letters will be swown.
+You also can try to quess whole word by entering it.
