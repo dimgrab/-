@@ -1,2 +1,4 @@
-Game rules: there one quized word. You can quess letters of this word by entering them. If you entered right letter all such letters will be swown.
-You also can try to quess whole word by entering it.
+# Игра "Поле чудес.".
+Это консольная игра на подобие телевизтоной  передачи с одноименным названием.
+## Правила игры.
+ Загадано слово. Пользователь может за каждый ход угадать либо отдельную букву слова, либо всё слово целиком.
