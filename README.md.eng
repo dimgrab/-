@@ -1,2 +1,12 @@
-Правила игры: Загадано слово. Вы можете поочерёдно отгадывать буквы в этом слове. Для этого вводите буквы русского алфавита, которые по-вашему есть в загаданном слове,
-по одной. Если введённая вами буква есть в загаданном слове, то все такие буквы в слове станут видны.Также вы можете отгадать слово сразу, введя его целиком.
+# The game "Field of Miracles."
+This is a console game similar to the TV program of the same name.
+## Rules of the game.
+The word is guess. You can guess either a single letter of a word or the whole word for each turn. The characters entered must be letters of the Russian alphabet. The number of moves is limited, if you spend all the moves and do not guess the word, then you will lose.
+## Description of the mechanism of the game.
+When the program starts, the hidden word is displayed, but the characters `"*"' are shown instead of letters. You enter a letter. If it is in the guessed word, then a message about it will show and all such letters will appear in the hidden word. If there is no such letter in the hidden word, then a message about it will show. If you have entered the whole word, but this word is not guessed word, then a message about it will be show. If the input contains characters other than the letters of the Russian alphabet (with the exception of commands), the corresponding message will be displayed. When you guess the hidden word, a message about the win and the number of tryes you spent will be displayed.
+## Available commands.
+Available commands:
+* "!помощь" - output of the rules of the game and a list of available commands.
+* "!исп." - output of the already used letters of the Russian alphabet.
+* "!ост." - output of unused letters of the Russian alphabet.
+* "!сдаться" - stop playing.
